@@ -4,3 +4,9 @@ When you initialize a repository a .git file is created.
 Tis is needed to track all the commits and histories of each file you add to the repository.
 Without a .git file you would just have a directory full of untracked files.
 
+2.2 How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is like a temporary holding area where you can put files you will be adding to a commit.
+The value of this is that you can specify one (or more) files from a directory for a commit.
+It also allows you to NOT add every single file in the directory to a commit at once.
+
