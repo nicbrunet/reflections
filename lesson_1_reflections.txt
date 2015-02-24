@@ -1,0 +1,13 @@
+1. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It's a little hard to see at first, because the + and - is something I'll have to wrap my mind around.
+I'm sure I'll get a handle on the fact the - points out what was removed from the original file.
+And then + points to things that have been added to the new file.
+So it's not saying, hey this has changed, but rather this was removed and this was added.
+Same thing in the big picture, just a different way of saying the same thing.
+
+2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Having access to all older versions of a file allows you to make changes and be confident that you can restore to a previous backup if you screw up.
+This allows you to play with your code without worrying that you'll never be able to get back to an old, working version if you break it.
+Having this assurance allows programmers to be more creative and to learn by doing.
