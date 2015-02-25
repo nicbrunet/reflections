@@ -2,3 +2,11 @@
 
 Creating a remote repository alls access to it by other people, say for a collaborative project.
 Additionally, a remote repository serves as a cloud-stored backup of your local files.
+
+3.2 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+You would want to manually pull changes from GitHub because there could be someone working remotely on the files and you wouldn't want to pull incomplete files.
+Also, you may not want to pull every branch and instead specify on one particular branch you want to work on from GitHub, so pulling all of them is inefficient.
+Overall allowing Git to decide when and what to pull would be much less efficient than manually deciding what to pull and when.
+
+3.3 
