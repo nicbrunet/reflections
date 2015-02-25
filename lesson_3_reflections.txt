@@ -9,4 +9,11 @@ You would want to manually pull changes from GitHub because there could be someo
 Also, you may not want to pull every branch and instead specify on one particular branch you want to work on from GitHub, so pulling all of them is inefficient.
 Overall allowing Git to decide when and what to pull would be much less efficient than manually deciding what to pull and when.
 
-3.3 
+3.3 Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Clones create a copy of an entire repository and its commit history onto a local computer from somewhere else (i.e., online).
+Forks are the same as clones in that it copies all the files as well and the entire commit history, but it's only does this on the GitHub website between two user accounts.
+Branches don't really create a copy of anything, instead they "branch" off another commit branch for the purpose of not messing with the original commit branch's code.
+Branches are created to track down bugs, create new features, allow one person to work on a small part of a larger code file, and then all these things can then be merged back in with the original code once it's working to everyone's satisfaction.
+
+3.4 
