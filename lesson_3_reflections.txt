@@ -28,3 +28,8 @@ Once several people start working on the same set of files it quickly becomes ve
 There would be manual checking, time stamp verification, and manual merging of files.
 It would crazy.
 
+3.6 When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Any time you're experimenting or making changes that should be approved by someone else before being merged into the working whole master, then you should work on a separate branch.
+That way you can use pull requests to collaborate and get feedback before changing your perfectly working master branch.
+
