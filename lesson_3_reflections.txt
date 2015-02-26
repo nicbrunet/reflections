@@ -16,4 +16,8 @@ Forks are the same as clones in that it copies all the files as well and the ent
 Branches don't really create a copy of anything, instead they "branch" off another commit branch for the purpose of not messing with the original commit branch's code.
 Branches are created to track down bugs, create new features, allow one person to work on a small part of a larger code file, and then all these things can then be merged back in with the original code once it's working to everyone's satisfaction.
 
-3.4 
+3.4 What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It's always good to have the most recent copy of the full repository locally, because it allows you to do work offline and then just sync up once you're back online.
+This makes working more efficient, because you don't have to constantly be syncing up between GitHub and local. You can just merge them when it's convenient to do so.
+
