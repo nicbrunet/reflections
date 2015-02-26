@@ -11,3 +11,32 @@ Same thing in the big picture, just a different way of saying the same thing.
 Having access to all older versions of a file allows you to make changes and be confident that you can restore to a previous backup if you screw up.
 This allows you to play with your code without worrying that you'll never be able to get back to an old, working version if you break it.
 Having this assurance allows programmers to be more creative and to learn by doing.
+
+3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+When you manually choose when to commit you can do it at a logical save point.
+Google Docs, for instance, may save at a point where your code is not complete and will not run.
+When you are choosing when to commit you can be sure you're at a point where you have complete code, not something that's either done nor undone.
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git exists specifically for saving versions of code, and very often the code in one file is uniquely tied to the code in one or more other files.
+On the other hand, Google Docs is used more for saving documents, and while sometimes changes in a document are tied to other documents, more often they are stand-alone files and repositories aren't needed.
+
+5. How can you use the commands git log and git diff to view the history of files?
+
+The command "git log" will list all or your commits with a small summary of each, including the notes you should include that summarize the changes made since the last commit.
+You can then use "git diff" to compare two different commits (using their commit ID numbers) and see what has changed between the two commits.
+
+6. How might using version control make you more confident to make changes that could break something?
+
+Being secure in the knowledge that you can pretty easily get back to a working version of your code would give you the confidence to go ahead and make changes even if you thought it might break your code.
+You could go ahead and break it, view the diff files to compare the working code to the non-working code, and see what you did to break it.
+That way you can learn much easier without fear of ruining a lot of previous work.
+
+7. Now that you have your workspace set up, what do you want to try using Git for?
+
+Um, every project I do! Though right now I'm taking a Python course with Dr. Chuck through Coursera, so I'll probably use it for that first.
+Can't wait to use it for websites with style sheets!
+
+8. 
