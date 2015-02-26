@@ -21,3 +21,10 @@ Branches are created to track down bugs, create new features, allow one person t
 It's always good to have the most recent copy of the full repository locally, because it allows you to do work offline and then just sync up once you're back online.
 This makes working more efficient, because you don't have to constantly be syncing up between GitHub and local. You can just merge them when it's convenient to do so.
 
+3.5 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Collaborating without using Git or GitHub would definitely be harder unless only one person worked on a file at a time.
+Once several people start working on the same set of files it quickly becomes very difficult and time consuming to figure out what the most recent versions of each file should look like.
+There would be manual checking, time stamp verification, and manual merging of files.
+It would crazy.
+

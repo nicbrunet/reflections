@@ -39,5 +39,3 @@ Date order is just a more logical way to view it, and we can still diff a commit
 
 Always doing merges manually basically nullifies a very power part of git that can really save time and errors.
 While git is not always going to be able to merge without some input from the user, it's a lot easier to track down some conflicts (since got even points you to them) than it would be to manually merge two commits on your own.
-
-2.8 
