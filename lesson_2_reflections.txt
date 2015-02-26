@@ -10,3 +10,34 @@ The staging area is like a temporary holding area where you can put files you wi
 The value of this is that you can specify one (or more) files from a directory for a commit.
 It also allows you to NOT add every single file in the directory to a commit at once.
 
+2.3 How can you use the staging area to make sure you have one commit per logical change?
+
+Once you add things to the staging area, you can compare it to either your most recent commit or your working directory to see what changes have been made.
+When you know that you can then decide which of those changes should be included in a single logical change, and then commit only those files in your next commit.
+You can stage more than on file at a time and still commit them separately if that makes more sense.
+
+2.4 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would help in any case where you might want to save a different version of your file but still also want to keep the original version as well.
+It would also be useful when you want to play around and experiment without messing with the master version of your file.
+Even if the branch ends up being something you want to keep as your master code, you can always merge the two branches down the line, once you've perfected the branch.
+Branching is a nice way to keep your master branch clean and working well while still being able to experiment or create alternate versions.
+
+2.5 How do the diagrams help you visualize the branch structure?
+
+A diagram is a nice visual representation of your branches and which commits belong to which branches.
+It clarifies which commits are included in which branches, and therefore which commits are affecting your code based on which branch you have checked out.
+
+2.6 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches is that all the commits from both branches are merged together in time stamp order in a single branch.
+You can then delete to old branch as the master branch (in this case) now contains all the commits from both branches.
+It is represented in the diagram in date order as well, even though a commit may not directly follow its parent commit in line.
+Date order is just a more logical way to view it, and we can still diff a commit to its parent commit with git show commit_id.
+
+2.7 What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Always doing merges manually basically nullifies a very power part of git that can really save time and errors.
+While git is not always going to be able to merge without some input from the user, it's a lot easier to track down some conflicts (since got even points you to them) than it would be to manually merge two commits on your own.
+
+2.8 
